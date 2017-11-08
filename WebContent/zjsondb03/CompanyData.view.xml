@@ -1,0 +1,28 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zjsondb03.CompanyData"
+		xmlns:form="sap.ui.layout.form"
+		 xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		
+	          <form:SimpleForm title="Company Information" id="idsf1">
+	              <Label text="Name"/>
+	              <Input value="{name}"/>
+	              <Label text="Address"/>
+	              <Input value="{address}"/>
+	          </form:SimpleForm>
+	          
+	           <form:SimpleForm title="Employee Details" id="idSf2">
+	              <Label text="Name"/>
+	              <Input value="{name}"/>
+	              <Label text="Role"/>
+	              <Input value="{role}"/>
+	              <Label text="Dept"/>
+	              <Input value="{dept}"/>      
+	          </form:SimpleForm>
+	          
+	          
+	          
+		</content>
+	</Page>
+</core:View>

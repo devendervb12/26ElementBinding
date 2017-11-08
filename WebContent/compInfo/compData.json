@@ -1,0 +1,19 @@
+{
+	"companyInformation": {
+								"name": "S-Max Technologies",
+								"address": "Hyderabad",
+								"empInfoSet" : [
+										{
+										  "name" : "Govardhan",
+										  "role" : "Developer",
+										  "dept" : "Technical"
+										},
+										{
+										 "name" : "Surender",
+										 "role" : "Call support",
+										 "dept" : "Marketing"
+										}
+										
+										]
+						  }
+}
